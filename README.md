@@ -45,10 +45,42 @@ CREATE TABLE Student (
 
 ```
 ## Table Description
-describe Student;
+**describe Student;**
+
 ## Result
 <img width="763" height="242" alt="Screenshot 2026-03-05 200657" src="https://github.com/user-attachments/assets/2b7913cb-f38c-426d-85fa-9e7b9a32580e" />
 
+### SQL QUERY:
+```sql
+CREATE TABLE Club (
+    ClubID INT PRIMARY KEY,
+    ClubName VARCHAR(100) NOT NULL,
+    ClubRoom VARCHAR(50),
+    ClubMentor VARCHAR(100)
+);
+```
+## Table Description
+**describe Club;**
+
+## Result
+<img width="886" height="304" alt="Screenshot 2026-03-05 200726" src="https://github.com/user-attachments/assets/7095f9a3-a818-47e1-8133-69373c88516f" />
+
+### SQL QUERY:
+```sql
+CREATE TABLE Membership (
+    MembershipID INT PRIMARY KEY AUTO_INCREMENT,
+    StudentID INT,
+    ClubID INT,
+    JoinDate DATE,
+    FOREIGN KEY (StudentID) REFERENCES Student(StudentID),
+    FOREIGN KEY (ClubID) REFERENCES Club(ClubID)
+);
+```
+## Table Description
+**describe Membership;**
+
+## Result
+<img width="956" height="315" alt="Screenshot 2026-03-05 200735" src="https://github.com/user-attachments/assets/01f54cd9-70d0-490f-a6d2-cb6afd552558" />
 
 
 ## 🚀 How to Interpret the Code
