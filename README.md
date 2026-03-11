@@ -1,27 +1,27 @@
-# 🛡️ Foundation of Computer Science - Data Management & Analysis
+#  Foundation of Computer Science - Data Management & Analysis
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue?style=for-the-badge&logo=python)
 ![SQL](https://img.shields.io/badge/SQL-Relational%20DB-orange?style=for-the-badge&logo=mysql)
 ![Academic](https://img.shields.io/badge/Coursework-ST4015CMD-success?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
 
-## 📌 Project Overview
+##  Project Overview
 This repository contains the practical simulations, algorithmic implementations, and database schemas developed for the **Foundation of Computer Science** coursework. The project investigates secure data transmission, computational complexities (P vs NP), and structural database normalization.
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
-### 1️⃣ Task 1: Secure Data Exchange & Encoding
+### 1️ Task 1: Secure Data Exchange & Encoding
 Exploration of how encoding formats (Base64, ASCII, URL Encoding) facilitate secure data transmission across modern protocols (HTTPS, SMTP) while addressing the risks of payload obfuscation by threat actors. *(Theoretical analysis documented in the main report).*
 
-### 2️⃣ Task 2: Algorithmic Analysis (P vs NP)
+### 2️ Task 2: Algorithmic Analysis (P vs NP)
 **File:** `Task2_Heuristic_Seating.py`
 A Python-based simulation demonstrating the **Classroom Seating Arrangement Problem**. 
 * **The Problem:** An `NP-Complete` combinatorial optimization problem where brute-force methods suffer from factorial time complexity `O(n!)`.
 * **The Solution:** A greedy heuristic algorithm that sorts variables by constraint levels, successfully reducing the computational overhead to polynomial time.
 
-### 3️⃣ Task 3: Database Normalization
+### 3️ Task 3: Database Normalization
 **File:** `Task3_Database_Schema.sql`
 A complete SQL script demonstrating the transformation of an anomaly-ridden flat file into a highly secure, scalable relational database.
 * Identifies Insertion, Update, and Deletion anomalies.
@@ -89,7 +89,7 @@ CREATE TABLE Membership (
 <img width="956" height="315" alt="Screenshot 2026-03-05 200735" src="https://github.com/user-attachments/assets/01f54cd9-70d0-490f-a6d2-cb6afd552558" />
 
 
-## 🚀 How to Interpret the Code
+##  How to Interpret the Code
 
 ### Running the Python Simulation (Task 2)
 1. Ensure Python 3.x is installed on your system.
